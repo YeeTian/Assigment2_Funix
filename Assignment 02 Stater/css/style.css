@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1200px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+/* Design banner */
+.banner {
+  position: relative;
+  text-align: center;
+}
+.Name-specialized {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  color: white;
+}
+img {
+  width: 100%;
+  height: 350px;
+}
+/* Design navbar */
+#nav-bar {
+  background-color: white;
+  overflow: hidden;
+}
+#nav-bar a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-left: 1px solid rgb(231, 231, 231);
+}
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#nav-bar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+i {
+  padding-bottom: 50px;
+  color: rgb(25, 159, 216);
+}
+/* Desin description and contact */
+.grib-container {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 130px 130px;
+}
+.grib-container-left {
+  height: 150px;
+  padding-left: 70px;
+  padding-right: 20px;
+}
+.grib-container-right {
+  height: 150px;
+  padding-left: 20px;
+}
+/* desin skill */
+.container-skill {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.item1 {
+  grid-area: 1/1/3/2;
+  background-color: #04aa6d;
+  height: 450px;
+}
+.item2 {
+  background-color: aqua;
+  padding-left: 5%;
+  height: 250px;
+}
+.item3 {
+  background-color: aquamarine;
+}
+.item4 {
+  background-color: bisque;
+  grid-area: 3/1/3/2;
+  height: 200px;
+}
+.item5 {
+  background-color: brown;
+  height: 200px;
+  padding-left: 5%;
+}
+.item6 {
+  background-color: yellowgreen;
+  height: 280px;
+  padding-left: 5%;
+}
+.container-skill h1 {
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.ic-toolbox {
+  padding-left: 15%;
+}
+.ic-pencil {
+  padding-left: 15%;
+}
+.ic-telescope {
+  padding-left: 15%;
+}
+.ic-mic {
+  padding-left: 15%;
+}
+.ic-tools-2 {
+  padding-left: 15%;
+}
+.progress {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.progress2 {
+  background: rgb(243, 243, 243);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.sothich i {
+  padding-left: 10%;
+  font-size: 24px;
+}
+/* Design Chung chi - giai thuong */
+.chungchi {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+}
+.imggt {
+  padding-top: 11%;
+  width: 300px;
+  height: 150px;
+}
