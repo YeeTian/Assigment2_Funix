@@ -150,15 +150,65 @@ i {
   width: 1000px;
   display: grid;
   grid-template-columns: 600px 600px;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 200px 200px;
+  gap: 30;
  }
 .chungchi img {
-  padding-left: 10%;
+  padding-left: 5%;
   padding-top: 8%;
-  width: 300px;
-  height: 150px;
+  width:  250px;
+  height: 125px;
 }
-.Border_Cert {
-  border-bottom:  1px solid  #d6c08d;
+.Cert_WEB{
+  border-bottom: 1px solid #d6c08d;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 150px 150px;
 }
-
+.info_WEB{
+  padding-top: 8%;
+}
+.Cert_PRF{
+  border-bottom: 1px solid #d6c08d;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 150px 150px;
+}
+.info_PRF{
+  padding-top: 8%;
+}
+.imgPRF{
+  border-left: 1px solid #d6c08d;
+}
+.Cert_DBI{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 100px 100px;
+}
+.info_DBI{
+  padding-top: 8%;
+}
+/* Design Dự Án */
+.duan{
+  display: grid;
+  grid-template-columns: 420px 420px 420px;
+  grid-template-rows: 400px 400px 400px;
+  grid-gap: 10px;
+}
+.timework{
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 70px 100px 100px;
+  grid-template-rows: 15px 15px 15px;
+  padding-left: 10%;
+  grid-gap: 10px;
+}
+.duan1 table {
+  text-align: left;
+}
+.timework p{
+  color: white;
+  background-color: #199cdb;
+  border-radius: 36%;
+  text-align: center;
+}
