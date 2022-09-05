@@ -149,12 +149,16 @@ i {
 .chungchi {
   width: 1000px;
   display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 30px;
-}
-.imggt {
-  padding-top: 11%;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 300px 300px;
+ }
+.chungchi img {
+  padding-left: 10%;
+  padding-top: 8%;
   width: 300px;
   height: 150px;
 }
+.Border_Cert {
+  border-bottom:  1px solid  #d6c08d;
+}
+
